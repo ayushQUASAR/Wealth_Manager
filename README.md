@@ -6,7 +6,7 @@ This is a full-stack web application designed to provide investors with a compre
  Live Demo
 
  Backend API: (https://wealth-manager-api.onrender.com/)
- Frontend Dashboard: `https://wealth-manager-tuy9.onrender.com/`
+ Frontend Dashboard: (https://wealth-manager-tuy9.onrender.com/)
 
 
  Features
