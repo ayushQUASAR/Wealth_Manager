@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // The baseURL will be prefixed to all requests, and the proxy in package.json
 // will forward them to your backend server in development.
-const API = axios.create({ baseURL: '/api/portfolio' });
+const API = axios.create({ baseURL: 'https://wealth-manager-api.onrender.com/api/portfolio' });
 
 export const fetchSummary = async () => {
   const { data } = await API.get('/summary');
