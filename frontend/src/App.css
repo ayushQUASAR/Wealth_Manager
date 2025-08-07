@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 1.25rem;
+  color: #dc2626; /* red-600 */
+  background-color: #f9fafb; /* gray-50 */
+  padding: 2rem;
+  text-align: center;
+}
+
+.fade-in { 
+  animation: fadeIn 0.5s ease-in-out; 
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+  to { opacity: 1; } 
+}
+
+.details-row.visible {
+  display: table-row;
+}
